@@ -1,0 +1,128 @@
+/*this is a css file used to improve the work*/
+body {
+    background-color: orange;
+}
+
+.h1head {
+    color: white;
+    background-color: rgb(130, 93, 161);
+    width: 20in;
+    font-size: 70px;
+    margin-top: 3mm;
+    margin-bottom: 2.5cm;
+    margin-left: 0.1ch;
+    margin-right: 3em;
+  }
+@font-face{
+    font-family: FuzzyBubbles;
+    src: url(FuzzyBubbles-Regular.ttf);
+}
+
+@media (max-width: 500px){
+    h1 {
+        font-size: 30px;
+    }
+}
+.Goat{
+    border-top: 5px dotted #FFF;
+    border-bottom: 3px dotted ;
+}
+.Attendance{
+    padding: 20mm 20in 5mm 5vmax;
+    font-size:40px;
+    display:inline
+}
+.h31{
+    margin: auto;
+    font-size: 30px;
+    color: hsl(300%, 76%, 70%)
+}
+.section3{
+    border-radius: 3mm;
+    border-color: aqua;
+    border-width: 10mm;
+    border-style: dashed;
+    display:inline-block;
+}
+.dream{
+    color:blanchedalmond;
+    text-decoration: underline;
+    text-align: center;
+    height:fit-content
+}
+.l30{
+    display: block;
+    max-width: max-content;
+    min-width: none;
+}
+.nothing{
+    display: none;
+}
+#core{
+    position: relative;
+}
+*{
+    color: white;
+}
+h2,h3{
+    text-align: center;
+    position: relative
+
+}
+a[href^="#"] {
+    background-color: cyan;
+    position: fixed;
+}
+form :active {
+    color: red;
+  }
+  
+  form button {
+    background: white;
+  }
+  a {
+    background-color: powderblue;
+    transition: background-color 0.5s;
+  }
+  
+  a:hover {
+    background-color: gold;
+  }
+  .page{
+    display: flex;
+    background: black;
+    flex-direction: column;
+    flex-shrink: 3;    
+    align-self: center;
+  }
+.contain{
+    display: grid;
+    grid-template-columns: max-content;
+    grid-auto-rows: auto;
+    height: 350px;
+    row-gap: 1.5px;
+    align-content: start;
+}
+* {
+    font-family: FuzzyBubbles;
+}
+p:hover{
+    color:black
+}
+.section3 > p{
+    text-align: center;    
+}
+h1 + h2{
+    display:none
+}
+h1 ~ h2{
+    background-color: rgb(50, 66, 165);
+
+}
+p.name{
+    background-color: rgb(130, 93, 161);
+}
+
+form button{
+    width: 300px;
+}
